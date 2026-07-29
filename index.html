@@ -3,44 +3,177 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HerPhase — Private Cycle and Energy Planner</title>
-  <meta name="description" content="HerPhase is a private, local-first cycle and energy planner for iPhone with wellness check-ins and logged-cycle estimates.">
+  <title>HerPhase — Private Cycle and Energy Planner for iPhone</title>
+  <meta name="description" content="HerPhase turns your logged cycle timing and optional daily check-ins into private, on-device phase estimates and planning context. Not a medical device.">
   <link rel="canonical" href="https://herphase.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HerPhase — Plan with your patterns in view">
+  <meta property="og:description" content="Private cycle estimates, daily check-ins, calendar context, and personal insights on iPhone.">
+  <meta property="og:url" content="https://herphase.app/">
+  <meta property="og:image" content="https://herphase.app/assets/screens/herphase-today.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/brand-mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "HerPhase",
+    "operatingSystem": "iOS",
+    "applicationCategory": "HealthApplication",
+    "description": "A private, local-first cycle and energy planner that provides estimates from logged timing and optional wellness check-ins.",
+    "url": "https://herphase.app/",
+    "screenshot": [
+      "https://herphase.app/assets/screens/herphase-today.png",
+      "https://herphase.app/assets/screens/herphase-check-in.png",
+      "https://herphase.app/assets/screens/herphase-calendar.png",
+      "https://herphase.app/assets/screens/herphase-insights.png",
+      "https://herphase.app/assets/screens/herphase-settings.png",
+      "https://herphase.app/assets/screens/herphase-how-it-works.png"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Gus Digital Solutions",
+      "url": "https://gusdigitalsolutions.com/"
+    }
+  }
+  </script>
 </head>
 <body>
-  <main>
+  <header>
+    <a href="./" class="brand" aria-label="HerPhase home">
+      <span class="brand-mark" aria-hidden="true">◒</span>
+      <span>HerPhase</span>
+    </a>
     <nav aria-label="HerPhase pages">
-      <a href="./">HerPhase</a>
+      <a href="#screens">Screens</a>
+      <a href="how-it-works/">How It Works</a>
+      <a href="privacy/">Privacy</a>
+      <a href="support/">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Private cycle and energy planning for iPhone</p>
+        <h1>Plan with your patterns in view.</h1>
+        <p class="lede">HerPhase uses your logged cycle timing and optional wellness check-ins to provide estimated phase and planning context. Your data stays on your device in the free-first build.</p>
+        <div class="hero-actions">
+          <a class="button" href="#screens">See the current app</a>
+          <a class="secondary-link" href="how-it-works/">How estimates work</a>
+        </div>
+        <ul class="trust-list">
+          <li>On-device data</li>
+          <li>No account required</li>
+          <li>No analytics or tracking</li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <picture class="device">
+          <source srcset="assets/screens/herphase-today.avif" type="image/avif">
+          <source srcset="assets/screens/herphase-today.webp" type="image/webp">
+          <img src="assets/screens/herphase-today.png" width="720" height="1564" alt="HerPhase Today screen with the current cycle-phase estimate and daily context" decoding="async">
+        </picture>
+      </div>
+    </section>
+
+    <aside class="release-status" aria-labelledby="release-status-title">
+      <div>
+        <p class="status-label" id="release-status-title">Release status</p>
+        <h2>Free-first App Store release in preparation</h2>
+      </div>
+      <p>This site will link to the verified App Store listing after HerPhase is publicly available. No public release date or price is being promised here.</p>
+      <div class="status-links" aria-label="Release information">
+        <a href="privacy/">Privacy</a>
+        <a href="terms/">Terms</a>
+        <a href="support/">Support</a>
+      </div>
+    </aside>
+
+    <section class="principles" aria-labelledby="principles-title">
+      <div class="section-heading">
+        <p class="eyebrow">Clear boundaries</p>
+        <h2 id="principles-title">Useful context, without pretending certainty.</h2>
+      </div>
+      <div class="principle-grid">
+        <article class="panel">
+          <span>01</span>
+          <h3>Private by default</h3>
+          <p>Cycle settings, daily check-ins, moods, physical tags, and notes stay on the device in the free-first version.</p>
+        </article>
+        <article class="panel">
+          <span>02</span>
+          <h3>Built for planning</h3>
+          <p>Logged cycle timing and optional check-ins provide general context for your day, calendar, and routines.</p>
+        </article>
+        <article class="panel">
+          <span>03</span>
+          <h3>Estimates, not predictions</h3>
+          <p>Phase labels are estimates derived from the information you enter. Cycles vary, and estimates can be wrong.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="screens-section" id="screens" aria-labelledby="screens-title">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Authentic product captures</p>
+          <h2 id="screens-title">See what HerPhase actually does.</h2>
+        </div>
+        <p>These current screens show the estimate, check-in, calendar, insights, settings, and in-app explanation—without invented mockups.</p>
+      </div>
+      <div class="screen-grid">
+        <figure class="screen-card">
+          <picture class="device"><source srcset="assets/screens/herphase-today.avif" type="image/avif"><source srcset="assets/screens/herphase-today.webp" type="image/webp"><img src="assets/screens/herphase-today.png" width="720" height="1564" alt="HerPhase Today screen with the current cycle-phase estimate and daily context" loading="lazy" decoding="async"></picture>
+          <figcaption><strong>Today</strong><span>Estimated phase and daily context.</span></figcaption>
+        </figure>
+        <figure class="screen-card">
+          <picture class="device"><source srcset="assets/screens/herphase-check-in.avif" type="image/avif"><source srcset="assets/screens/herphase-check-in.webp" type="image/webp"><img src="assets/screens/herphase-check-in.png" width="720" height="1564" alt="HerPhase daily check-in screen for recording symptoms and observations" loading="lazy" decoding="async"></picture>
+          <figcaption><strong>Check-in</strong><span>Optional observations in your own words.</span></figcaption>
+        </figure>
+        <figure class="screen-card">
+          <picture class="device"><source srcset="assets/screens/herphase-calendar.avif" type="image/avif"><source srcset="assets/screens/herphase-calendar.webp" type="image/webp"><img src="assets/screens/herphase-calendar.png" width="720" height="1564" alt="HerPhase calendar screen showing recorded dates and estimated cycle phases" loading="lazy" decoding="async"></picture>
+          <figcaption><strong>Calendar</strong><span>Your entries and estimates over time.</span></figcaption>
+        </figure>
+        <figure class="screen-card">
+          <picture class="device"><source srcset="assets/screens/herphase-insights.avif" type="image/avif"><source srcset="assets/screens/herphase-insights.webp" type="image/webp"><img src="assets/screens/herphase-insights.png" width="720" height="1564" alt="HerPhase insights screen summarizing patterns from the user's own entries" loading="lazy" decoding="async"></picture>
+          <figcaption><strong>Insights</strong><span>Patterns grounded in what you logged.</span></figcaption>
+        </figure>
+        <figure class="screen-card">
+          <picture class="device"><source srcset="assets/screens/herphase-settings.avif" type="image/avif"><source srcset="assets/screens/herphase-settings.webp" type="image/webp"><img src="assets/screens/herphase-settings.png" width="720" height="1564" alt="HerPhase settings screen with privacy and app preference controls" loading="lazy" decoding="async"></picture>
+          <figcaption><strong>Settings</strong><span>Privacy, preferences, and data controls.</span></figcaption>
+        </figure>
+        <figure class="screen-card">
+          <picture class="device"><source srcset="assets/screens/herphase-how-it-works.avif" type="image/avif"><source srcset="assets/screens/herphase-how-it-works.webp" type="image/webp"><img src="assets/screens/herphase-how-it-works.png" width="720" height="1564" alt="HerPhase How It Works screen explaining that cycle phases are estimates" loading="lazy" decoding="async"></picture>
+          <figcaption><strong>How it works</strong><span>The estimate engine explained in the app.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="medical-note" aria-labelledby="medical-title">
+      <div>
+        <p class="eyebrow">Wellness only</p>
+        <h2 id="medical-title">HerPhase is not a medical device.</h2>
+      </div>
+      <div>
+        <p>HerPhase does not provide medical advice, diagnosis, treatment, contraception, or fertility prediction. Do not rely on it for medical decisions or pregnancy prevention.</p>
+        <a href="medical-disclosure/">Read the full medical disclosure</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark" aria-hidden="true">◒</span><strong>HerPhase</strong></div>
+    <nav aria-label="Footer navigation">
       <a href="blog/">Blog</a>
       <a href="privacy/">Privacy</a>
       <a href="terms/">Terms</a>
       <a href="support/">Support</a>
-      <a href="how-it-works/">How It Works</a>
-      <a href="medical-disclosure/">Not a Medical Device</a>
-      <a href="delete-account/">Delete Account</a>
+      <a href="delete-account/">Delete Data</a>
+      <a href="llms.txt">Plain-text product facts</a>
     </nav>
-
-    <p class="eyebrow">Cycle and energy planner</p>
-    <h1>HerPhase</h1>
-    <p class="lede">HerPhase helps you plan your day around estimated cycle phases, energy shifts, and your own local check-ins. The free-first version keeps data on device and does not use accounts, analytics, cloud sync, or tracking.</p>
-
-    <section class="grid" aria-label="Key points">
-      <div class="panel">
-        <h2>Private by default</h2>
-        <p>Cycle settings, daily check-ins, moods, physical tags, and notes stay on the device in the free-first version.</p>
-      </div>
-      <div class="panel">
-        <h2>Built for planning</h2>
-        <p>HerPhase maps your cycle day to an estimated phase, then turns sleep, stress, and energy check-ins into practical daily context.</p>
-      </div>
-      <div class="panel">
-        <h2>Wellness only</h2>
-        <p>HerPhase is not medical advice, diagnosis, contraception, or a fertility tool. It provides general wellness information.</p>
-      </div>
-    </section>
-
-    <footer>Contact: <a href="mailto:gus@gusdigitalsolutions.com">gus@gusdigitalsolutions.com</a></footer>
-  </main>
+    <p>Contact: <a href="mailto:gus@gusdigitalsolutions.com">gus@gusdigitalsolutions.com</a></p>
+  </footer>
 </body>
 </html>
