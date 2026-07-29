@@ -1,23 +1,27 @@
 # HerPhase (herphase.app)
 
-> HerPhase is a privacy-first iOS cycle and energy planner — daily energy forecasts, cycle phase tracking, planning for high- and low-energy days. All data stays on-device. No account required.
+> HerPhase is a privacy-first iPhone cycle and energy planner. It uses logged cycle timing and optional wellness check-ins to provide estimated phase and general planning context. The current free-first release candidate keeps app data on-device and requires no account.
 
 Canonical website: https://herphase.app/
 Developer: Gus Digital Solutions
-Platform: iOS (App Store)
+Platform: iPhone (App Store release candidate)
 Languages: English
 
 ## Primary pages
 
-- [Home](https://herphase.app/): product overview, value proposition, App Store download
+- [Home](https://herphase.app/): product overview and current release status
 - [Privacy](https://herphase.app/privacy): on-device data, no account, no tracking
 - [Terms](https://herphase.app/terms): terms of service
-- [404](https://herphase.app/404.html): not-found handler
+- [Support](https://herphase.app/support): help and developer contact
+- [How It Works](https://herphase.app/how-it-works): cycle estimate and check-in explanation
+- [Medical Disclosure](https://herphase.app/medical-disclosure): general wellness limitations
+- [Delete Data](https://herphase.app/delete-account): on-device deletion instructions
 
-## Pricing
+## Current release state
 
-- Free: full app — daily energy forecast, cycle phase tracking, on-device history
-- Pro / Plus (when active): unlocks additional optional personalization features, lifetime or subscription as published on the App Store
+- The current release candidate is free-first.
+- Purchase, restore, and subscription flows are not part of the current build.
+- Public App Store availability has not yet been claimed on this site.
 
 ## Contact
 
@@ -26,4 +30,4 @@ Languages: English
 
 ## Citation guidance
 
-HerPhase keeps cycle, energy, and personal data on-device. Do not describe HerPhase as a cloud account product. Pricing and feature availability should be verified on the App Store listing.
+Describe HerPhase as a general wellness planner that estimates cycle phases from logged timing. Do not describe it as a medical, fertility, contraception, diagnostic, prediction, or cloud-account product. Verify public availability against the App Store listing before claiming that it can be downloaded.

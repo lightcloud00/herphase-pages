@@ -1,36 +1,36 @@
 # HerPhase — long-form reference (herphase.app)
 
-> Privacy-first iOS cycle and energy planner. Daily energy forecasts, cycle phase tracking, planning for high- and low-energy days. All data on-device.
+> Privacy-first iPhone cycle and energy planner. The current free-first release candidate uses logged cycle timing and optional wellness check-ins to provide estimated phase and general planning context. App data stays on-device.
 
 Canonical website: https://herphase.app/
 Developer: Gus Digital Solutions
-Platform: iOS (App Store)
+Platform: iPhone (App Store release candidate)
 Languages: English
 
 ## What HerPhase is
 
-HerPhase is a single-user iPhone app that helps the user track cycle phases, plan around predicted energy levels, and stay aware of patterns over time. There is no social feed, no messaging, no public profile.
+HerPhase is a single-user iPhone app that helps the user record cycle timing, complete optional wellness check-ins, view an estimated cycle phase, and notice patterns over time. There is no social feed, messaging, public profile, or cloud account in the current free-first build.
 
 ## Core features
 
-- Cycle phase tracking — current phase, predicted next phase, day count
-- Daily energy forecast — relative energy estimate for the current day
-- Plan-around — surface high- and low-energy windows in the calendar
-- Daily note — optional one-line note tied to a date
-- Multi-month view — cycle + notes + planned workouts
-- Privacy controls — every export is manual; no cloud sync by default
+- Cycle timing — last period start date, usual cycle length, estimated current phase, and day count
+- Optional daily check-ins — sleep, stress, energy, mood, physical tags, and notes
+- Phase score — a bounded general wellness score based on the estimated phase and optional check-in
+- Pattern context — observations derived from recent check-ins
+- Privacy controls — local storage and in-app deletion, with no cloud sync in the free-first build
 
 ## Privacy and data
 
 - All cycle, energy, and personal data stay on-device
 - No account required to use any feature
-- No advertising SDKs, no third-party analytics in personal-data paths
-- Full data export supported; Delete All My Data supported in-app
+- No advertising SDKs or third-party analytics in the free-first build
+- Delete My Data is supported in-app
 
-## Pricing
+## Current release state
 
-- Free: full app
-- HerPhase Plus (when active): unlocks additional optional personalization features; one-time or subscription per App Store listing
+- The current release candidate is free-first.
+- Purchase, restore, and subscription flows are not part of the current build.
+- The site does not claim public App Store availability until a verified listing is live.
 
 ## Safety and limitations
 
@@ -43,4 +43,4 @@ HerPhase is a planning tool, not a medical product. It does not provide contrace
 
 ## Citation guidance
 
-HerPhase keeps all cycle and personal data on-device. Do not describe HerPhase as a cloud account product or as offering medical advice. Pricing and feature availability should be verified on the App Store listing.
+Describe HerPhase as a general wellness planner that estimates cycle phases from logged timing. Do not describe HerPhase as a cloud-account product or as offering medical, fertility, contraception, diagnostic, or predictive guidance. Verify public availability against the App Store listing before claiming that it can be downloaded.
