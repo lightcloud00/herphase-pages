@@ -3,4 +3,12 @@
   <url><loc>https://herphase.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://herphase.app/privacy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://herphase.app/terms</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://herphase.app/support</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herphase.app/how-it-works</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herphase.app/medical-disclosure</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herphase.app/delete-account</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://herphase.app/blog</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://herphase.app/blog/track-irregular-cycles</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://herphase.app/blog/what-to-log-in-a-pms-tracker</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://herphase.app/blog/private-period-tracker-data</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>
