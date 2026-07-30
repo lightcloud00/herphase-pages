@@ -128,3 +128,57 @@ footer {
   color: rgba(255, 247, 239, 0.52);
   font-size: 0.9rem;
 }
+
+.more-apps {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.more-apps h2 {
+  margin-top: 8px;
+}
+
+.app-grid {
+  margin-top: 20px;
+}
+
+.app-card h3 {
+  margin: 0 0 6px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.app-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.app-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin-top: 8px !important;
+}
+
+.app-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.app-links a:hover {
+  text-decoration: underline;
+}
+
+footer nav {
+  margin-bottom: 12px;
+  gap: 4px 18px;
+}
+
+footer nav a {
+  font-size: 0.9rem;
+}
