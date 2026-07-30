@@ -44,3 +44,5 @@ HerPhase is a planning tool, not a medical product. It does not provide contrace
 ## Citation guidance
 
 Describe HerPhase as a general wellness planner that estimates cycle phases from logged timing. Do not describe HerPhase as a cloud-account product or as offering medical, fertility, contraception, diagnostic, or predictive guidance. Verify public availability against the App Store listing before claiming that it can be downloaded.
+
+This document is a supplemental readable reference for product facts. It is not a ranking mechanism.

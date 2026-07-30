@@ -13,7 +13,7 @@ Languages: English
 - [Privacy](https://herphase.app/privacy): on-device data, no account, no tracking
 - [Terms](https://herphase.app/terms): terms of service
 - [Support](https://herphase.app/support): help and developer contact
-- [How It Works](https://herphase.app/how-it-works): cycle estimate and check-in explanation
+- [How It Works](https://herphase.app/how-it-works/): cycle estimate and check-in explanation
 - [Medical Disclosure](https://herphase.app/medical-disclosure): general wellness limitations
 - [Delete Data](https://herphase.app/delete-account): on-device deletion instructions
 

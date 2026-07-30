@@ -1,39 +1,57 @@
 {
   "app": "HerPhase",
   "capture_date": "2026-07-21",
-  "build_receipt": "Verified current App Store fleet capture",
-  "device": "iPhone 6.9-inch (1320x2868 source)",
+  "build": "Current free-first iOS build represented by the verified six-screen capture set",
+  "build_receipt": "Verified current App Store fleet capture; original source SHA was not retained with the derivative package",
+  "device": "iPhone 6.9-inch",
+  "source_dimensions": "1320x2868",
+  "derivative_dimensions": "720x1564",
+  "source_sha": "unavailable",
+  "source": "Existing verified HerPhase six-screen capture package",
+  "verification_status": "visual set verified; exact source SHA remains a release-evidence follow-up",
   "derivatives": "720px AVIF and WebP with optimized PNG fallback",
   "screens": [
     {
       "file": "herphase-today",
       "purpose": "Today estimate",
-      "alt": "HerPhase Today screen with the current cycle-phase estimate and daily context"
+      "alt": "HerPhase Today screen with the current cycle-phase estimate and daily context",
+      "dimensions": "720x1564",
+      "verification_status": "verified"
     },
     {
       "file": "herphase-check-in",
       "purpose": "Daily check-in",
-      "alt": "HerPhase daily check-in screen for recording symptoms and observations"
+      "alt": "HerPhase daily check-in screen for recording symptoms and observations",
+      "dimensions": "720x1564",
+      "verification_status": "verified"
     },
     {
       "file": "herphase-calendar",
       "purpose": "Cycle calendar",
-      "alt": "HerPhase calendar screen showing recorded dates and estimated cycle phases"
+      "alt": "HerPhase calendar screen showing recorded dates and estimated cycle phases",
+      "dimensions": "720x1564",
+      "verification_status": "verified"
     },
     {
       "file": "herphase-insights",
       "purpose": "Personal insights",
-      "alt": "HerPhase insights screen summarizing patterns from the user's own entries"
+      "alt": "HerPhase insights screen summarizing patterns from the user's own entries",
+      "dimensions": "720x1564",
+      "verification_status": "verified"
     },
     {
       "file": "herphase-settings",
       "purpose": "Privacy and settings",
-      "alt": "HerPhase settings screen with privacy and app preference controls"
+      "alt": "HerPhase settings screen with privacy and app preference controls",
+      "dimensions": "720x1564",
+      "verification_status": "verified"
     },
     {
       "file": "herphase-how-it-works",
       "purpose": "Estimate-engine explanation",
-      "alt": "HerPhase How It Works screen explaining that cycle phases are estimates"
+      "alt": "HerPhase How It Works screen explaining that cycle phases are estimates",
+      "dimensions": "720x1564",
+      "verification_status": "verified"
     }
   ]
 }

@@ -24,6 +24,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 a { color: var(--gold); text-underline-offset: .18em; }
+a:focus-visible {
+  outline: 3px solid var(--rose);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
 img { max-width: 100%; }
 header {
   position: sticky;
@@ -47,20 +52,28 @@ header {
   text-decoration: none;
 }
 .brand-mark {
-  display: grid;
+  display: block;
   width: 38px;
   height: 38px;
-  place-items: center;
-  border: 1px solid rgba(224, 184, 92, .38);
-  border-radius: 50%;
-  color: var(--gold);
-  background: rgba(224, 184, 92, .08);
-  font-size: 22px;
+  flex: 0 0 auto;
+  border-radius: 11px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .22);
 }
 nav { display: flex; flex-wrap: wrap; gap: 10px 24px; }
 nav a { color: var(--muted); font-size: 14px; font-weight: 650; text-decoration: none; }
 nav a:hover { color: var(--gold); }
 main { width: min(1160px, calc(100% - 48px)); margin: 0 auto; }
+.error-page {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  justify-items: start;
+  gap: 20px;
+  padding-block: 56px;
+}
+.error-page .brand { margin-bottom: 42px; }
+.error-page h1 { max-width: 820px; margin-bottom: 0; }
+.error-page .button { margin-top: 12px; }
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(250px, 380px);
@@ -211,7 +224,8 @@ footer p { margin: 0; }
   header nav a:nth-child(-n+2) { display: none; }
   main { width: min(100% - 36px, 1160px); }
   .hero { grid-template-columns: 1fr; min-height: 0; padding: 52px 0 70px; }
-  .hero-visual { order: -1; width: min(75vw, 288px); margin: 0 auto; }
+  .hero-copy { order: 1; }
+  .hero-visual { order: 2; width: min(68vw, 260px); margin: 0 auto; }
   .hero-visual::before { inset-inline: 0; }
   h1 { font-size: clamp(3.3rem, 16vw, 4.6rem); }
   .release-status, .principle-grid, .split-heading, .medical-note { grid-template-columns: 1fr; }

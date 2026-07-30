@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title description">
+  <title id="title">HerPhase crescent</title>
+  <desc id="description">A warm gold crescent on a deep plum background.</desc>
+  <rect width="64" height="64" rx="18" fill="#211627"/>
+  <path d="M42.8 13.6A21.4 21.4 0 1 0 50.4 47 18.6 18.6 0 1 1 42.8 13.6Z" fill="#e0b85c"/>
+  <circle cx="46.5" cy="20" r="2.2" fill="#d58a92"/>
+</svg>
