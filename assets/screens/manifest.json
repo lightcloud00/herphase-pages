@@ -1,0 +1,39 @@
+{
+  "app": "HerPhase",
+  "capture_date": "2026-07-21",
+  "build_receipt": "Verified current App Store fleet capture",
+  "device": "iPhone 6.9-inch (1320x2868 source)",
+  "derivatives": "720px AVIF and WebP with optimized PNG fallback",
+  "screens": [
+    {
+      "file": "herphase-today",
+      "purpose": "Today estimate",
+      "alt": "HerPhase Today screen with the current cycle-phase estimate and daily context"
+    },
+    {
+      "file": "herphase-check-in",
+      "purpose": "Daily check-in",
+      "alt": "HerPhase daily check-in screen for recording symptoms and observations"
+    },
+    {
+      "file": "herphase-calendar",
+      "purpose": "Cycle calendar",
+      "alt": "HerPhase calendar screen showing recorded dates and estimated cycle phases"
+    },
+    {
+      "file": "herphase-insights",
+      "purpose": "Personal insights",
+      "alt": "HerPhase insights screen summarizing patterns from the user's own entries"
+    },
+    {
+      "file": "herphase-settings",
+      "purpose": "Privacy and settings",
+      "alt": "HerPhase settings screen with privacy and app preference controls"
+    },
+    {
+      "file": "herphase-how-it-works",
+      "purpose": "Estimate-engine explanation",
+      "alt": "HerPhase How It Works screen explaining that cycle phases are estimates"
+    }
+  ]
+}
