@@ -2,20 +2,20 @@
 
 > HerPhase is a privacy-first iPhone cycle and energy planner. It uses logged cycle timing and optional wellness check-ins to provide estimated phase and general planning context. The current free-first release candidate keeps app data on-device and requires no account.
 
-Canonical website: https://herphase.app/
+Canonical website: https://lightcloud00.github.io/herphase-pages/
 Developer: Gus Digital Solutions
 Platform: iPhone (App Store release candidate)
 Languages: English
 
 ## Primary pages
 
-- [Home](https://herphase.app/): product overview and current release status
-- [Privacy](https://herphase.app/privacy): on-device data, no account, no tracking
-- [Terms](https://herphase.app/terms): terms of service
-- [Support](https://herphase.app/support): help and developer contact
-- [How It Works](https://herphase.app/how-it-works): cycle estimate and check-in explanation
-- [Medical Disclosure](https://herphase.app/medical-disclosure): general wellness limitations
-- [Delete Data](https://herphase.app/delete-account): on-device deletion instructions
+- [Home](https://lightcloud00.github.io/herphase-pages/): product overview and current release status
+- [Privacy](https://lightcloud00.github.io/herphase-pages/privacy/): on-device data, no account, no tracking
+- [Terms](https://lightcloud00.github.io/herphase-pages/terms/): terms of service
+- [Support](https://lightcloud00.github.io/herphase-pages/support/): help and developer contact
+- [How It Works](https://lightcloud00.github.io/herphase-pages/how-it-works/): cycle estimate and check-in explanation
+- [Medical Disclosure](https://lightcloud00.github.io/herphase-pages/medical-disclosure/): general wellness limitations
+- [Delete Data](https://lightcloud00.github.io/herphase-pages/delete-account/): on-device deletion instructions
 
 ## Current release state
 

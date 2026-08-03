@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://herphase.app/sitemap.xml
+Sitemap: https://lightcloud00.github.io/herphase-pages/sitemap.xml
