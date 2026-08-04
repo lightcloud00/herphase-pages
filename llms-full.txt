@@ -1,8 +1,8 @@
-# HerPhase — long-form reference (herphase.app)
+# HerPhase — long-form reference (gusdigitalsolutions.com/herphase)
 
 > Privacy-first iPhone cycle and energy planner. The current free-first release candidate uses logged cycle timing and optional wellness check-ins to provide estimated phase and general planning context. App data stays on-device.
 
-Canonical website: https://lightcloud00.github.io/herphase-pages/
+Canonical website: https://gusdigitalsolutions.com/herphase/
 Developer: Gus Digital Solutions
 Platform: iPhone (App Store release candidate)
 Languages: English
