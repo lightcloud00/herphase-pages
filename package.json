@@ -1,0 +1,10 @@
+{
+  "name": "herphase-public-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "covers:manifest": "node scripts/generate-covers.mjs",
+    "build": "node scripts/build-blog.mjs && node scripts/verify-blog.mjs",
+    "verify:blog": "node scripts/verify-blog.mjs"
+  }
+}

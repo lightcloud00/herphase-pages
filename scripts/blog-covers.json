@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "slug": "track-irregular-cycles-1200x630",
+      "title": "How to Track Irregular Cycles Without Assuming 28 Days",
+      "eyebrow": "Wellness Guide",
+      "brand": "HerPhase",
+      "alt": "HerPhase cover showing a gentle cycle diagram for tracking irregular cycle dates without assuming 28 days",
+      "outputDir": "assets/blog",
+      "motif": "cycle",
+      "colors": [
+        "#2b1327",
+        "#632647",
+        "#d4af37",
+        "#f8dce9"
+      ]
+    },
+    {
+      "slug": "what-to-log-in-a-pms-tracker-1200x630",
+      "title": "What to Log in a PMS Tracker",
+      "eyebrow": "Wellness Guide",
+      "brand": "HerPhase",
+      "alt": "HerPhase cover with a phone checklist for logging mood, energy, sleep, flow, and daily symptoms",
+      "outputDir": "assets/blog",
+      "motif": "phone",
+      "colors": [
+        "#2a142d",
+        "#70405e",
+        "#d4af37",
+        "#f4d9ea"
+      ]
+    },
+    {
+      "slug": "private-period-tracker-data-1200x630",
+      "title": "Private Period Tracking: What Stays on Your Phone and Why",
+      "eyebrow": "Wellness Guide",
+      "brand": "HerPhase",
+      "alt": "HerPhase cover with a protective shield representing private on-device period tracking data",
+      "outputDir": "assets/blog",
+      "motif": "shield",
+      "colors": [
+        "#241229",
+        "#51325a",
+        "#d4af37",
+        "#f6dcea"
+      ]
+    }
+  ]
+}
