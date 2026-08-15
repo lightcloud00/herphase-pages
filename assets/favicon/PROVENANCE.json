@@ -1,0 +1,57 @@
+{
+  "schema": "herphase.favicon_provenance.v1",
+  "generated_at_utc": "2026-08-11T21:34:34Z",
+  "source": {
+    "repository": "lightcloud00/herphase",
+    "remote_main": "99c121faa687680841d0699b7a3a95001651a3dc",
+    "path": "ios/HerPhase/Assets.xcassets/AppIcon.appiconset/icon.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "8f9c65ddc1737ae5da7bb1c4fac737d76e2a54921a7380d5a2f904f0d82a6ce1"
+  },
+  "generator": {
+    "png": "macOS sips exact square resampling from the source catalog asset",
+    "ico": "ImageMagick multi-resolution ICO assembled from the generated 16, 32, and 48 pixel PNGs",
+    "creative_generation_used": false
+  },
+  "outputs": {
+    "apple-touch-icon.png": {
+      "width": 180,
+      "height": 180,
+      "sha256": "d6a393458ec3fa99a389761ed097463658a4115b19c9561f460818bbf95444bc"
+    },
+    "favicon-16x16.png": {
+      "width": 16,
+      "height": 16,
+      "sha256": "c2e6766828675303f49139fda2a518840ebe6f578c2135fed78038731965bae3"
+    },
+    "favicon-32x32.png": {
+      "width": 32,
+      "height": 32,
+      "sha256": "25727cea649e0af28664626a0ebfef66c79f1ac22c8e8a49b862146612168480"
+    },
+    "favicon-48x48.png": {
+      "width": 48,
+      "height": 48,
+      "sha256": "d005f694429bc6e70a98ebf0b20a6245e62ef8b4c818df8547b88e66b64e40a8"
+    },
+    "favicon.ico": {
+      "sizes": [
+        16,
+        32,
+        48
+      ],
+      "sha256": "bf2ec8cf25982f83078d6227a33568b55c8e1b69261145c885deed6d833cb2ab"
+    },
+    "icon-192.png": {
+      "width": 192,
+      "height": 192,
+      "sha256": "98756bf640b92d4a924524aa7a1978d875c15675ab58e3d71d455011bd3c8c25"
+    },
+    "icon-512.png": {
+      "width": 512,
+      "height": 512,
+      "sha256": "3db4b051cf113f64643fc71f7b33f6dd10e34f1a733214fefe7da674ea5ca3dc"
+    }
+  }
+}
