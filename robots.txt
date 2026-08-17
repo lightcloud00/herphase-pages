@@ -46,8 +46,15 @@ Disallow: /
 User-agent: CloudflareBrowserRenderingCrawler
 Disallow: /
 
+# Google-Extended: allowed, portfolio-wide decision 2026-08-16.
+# It governs Gemini app and Vertex AI grounding, NOT Google Search or the AI
+# features inside Search -- those follow Googlebot and normal indexing. This
+# group records the deliberate choice to let eligible content be grounded and
+# cited by Gemini. Every other training crawler below stays declined, so
+# ai-train=no remains the stated policy elsewhere. Revert by restoring
+# `Disallow: /` on the line under this group.
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: GPTBot
 Disallow: /
