@@ -228,3 +228,17 @@ footer p { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+
+/* Canonical seven-app portfolio cross-links. */
+.portfolio-apps-footer { padding: 32px 0; border-top: 1px solid rgba(127,127,127,.24); }
+.portfolio-apps { width: min(100% - 40px, 1120px); margin: 28px auto 0; padding-top: 24px; border-top: 1px solid rgba(127,127,127,.24); color: inherit; text-align: left; }
+.portfolio-apps__title { margin: 0 0 16px; color: inherit; font: 800 12px/1.2 system-ui,sans-serif; letter-spacing: .14em; text-transform: uppercase; }
+.portfolio-apps__list { display: grid; grid-template-columns: repeat(auto-fit,minmax(135px,1fr)); gap: 12px 20px; margin: 0; padding: 0; list-style: none; }
+.portfolio-apps__item { display: flex; min-width: 0; flex-wrap: wrap; align-items: baseline; gap: 4px 9px; }
+.portfolio-apps__marketing,.portfolio-apps__store,.portfolio-apps__portfolio { overflow-wrap: anywhere; }
+.portfolio-apps__marketing { color: inherit; font-weight: 750; }
+.portfolio-apps__store { font-size: 12px; }
+.portfolio-apps__portfolio { display: inline-block; margin-top: 18px; font-size: 12px; font-weight: 750; }
+.portfolio-apps a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+@media (max-width:520px) { .portfolio-apps { width:min(100% - 28px,1120px); } .portfolio-apps__list { grid-template-columns:repeat(2,minmax(0,1fr)); gap-inline:14px; } }
