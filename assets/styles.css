@@ -10,6 +10,38 @@
   --lavender: #a89bd0;
   --line: rgba(255, 248, 241, .12);
   --shadow: 0 30px 90px rgba(0, 0, 0, .38);
+
+  /* Lighter elevation steps. `--shadow` stays the hero/panel tier. */
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, .28);
+  --shadow-md: 0 14px 40px rgba(0, 0, 0, .34);
+
+  /* Spacing ramp, replacing a spread that ran 4, 9, 12, 13, 20, 22, 24, 26,
+     28, 30, 32 and 75px. */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 13px;
+  --space-md: 22px;
+  --space-lg: 32px;
+  --space-xl: 52px;
+  --space-2xl: 80px;
+
+  /* Radius ramp. Seven distinct radii were in use (22/25/28/31/34/42/999px);
+     the odd numbers came from eyeballing rather than a scale. */
+  --radius-sm: 14px;
+  --radius-md: 22px;
+  --radius-lg: 32px;
+  --radius-xl: 42px;
+  --radius-pill: 999px;
+
+  --ease: cubic-bezier(.2, .7, .3, 1);
+  --dur-fast: 120ms;
+  --dur: 200ms;
+
+  /* Focus. Gold is the brand accent and the only palette colour with enough
+     contrast against both --bg (#140d17) and --panel (#211627). */
+  --focus-ring: var(--gold);
+  --focus-width: 3px;
+  --focus-offset: 3px;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -227,6 +259,16 @@ footer p { margin: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  /* Previously this block reset scroll-behaviour and nothing else, so every
+     transition and animation on the page still ran at full duration. */
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .feature-card:hover,
+  .screen-card:hover { transform: none; }
 }
 
 
@@ -241,4 +283,62 @@ footer p { margin: 0; }
 .portfolio-apps__store { font-size: 12px; }
 .portfolio-apps__portfolio { display: inline-block; margin-top: 18px; font-size: 12px; font-weight: 750; }
 .portfolio-apps a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
-@media (max-width:520px) { .portfolio-apps { width:min(100% - 28px,1120px); } .portfolio-apps__list { grid-template-columns:repeat(2,minmax(0,1fr)); gap-inline:14px; } }
+@media (max-width:520px) { .portfolio-apps { width:min(100% - 28px,1120px); } .portfolio-apps__list { grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:14px; } }
+
+
+/* ==========================================================================
+   Keyboard focus
+   --------------------------------------------------------------------------
+   `.portfolio-apps a` carried the only ring on the page. The sticky header,
+   the hero CTAs and the medical-disclosure links — the ones a screen-reader
+   or keyboard user most needs to reach on a health site — had none.
+   ========================================================================== */
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  border-radius: var(--radius-sm);
+  outline: var(--focus-width) solid var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+/* The sticky header is translucent with a blur behind it; an offset ring can
+   fall outside the blur and lose contrast, so it tucks in. */
+header a:focus-visible {
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Interactive polish
+   --------------------------------------------------------------------------
+   No element in the sheet declared a transition, so every hover was an
+   instant swap.
+   ========================================================================== */
+
+a,
+header nav a {
+  transition: color var(--dur) var(--ease), opacity var(--dur) var(--ease);
+}
+
+.feature-card,
+.screen-card {
+  transition: border-color var(--dur) var(--ease),
+              box-shadow var(--dur) var(--ease),
+              transform var(--dur) var(--ease);
+}
+
+.feature-card:hover,
+.screen-card:hover {
+  border-color: rgba(224, 184, 92, .38);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* The medical disclosure is the one block that must never look decorative or
+   invite a hover interaction — it is a static notice. */
+.medical-note,
+.medical-note:hover {
+  transform: none;
+  box-shadow: none;
+}
