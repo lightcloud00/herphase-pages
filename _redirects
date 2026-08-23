@@ -1,3 +1,25 @@
+# herphase-pages is a redirect shim. THE LIVE SITE IS NOT IN THIS REPOSITORY.
+#
+# It is https://gusdigitalsolutions.com/herphase/ , served from
+# lightcloud00/gusdigitalsolutions under public/herphase/. Content changes
+# belong there; nothing edited in this repo will ever be seen by a visitor,
+# because the first rule below 301s away from / before anything is served.
+#
+# This file and robots.txt are the entire purpose of the repository.
+#
+# Until 2026-08-23 the repo also carried a full copy of the site (index.html,
+# blog/, assets/styles.css, the legal pages, llms.txt). That copy was
+# unreachable AND had diverged from the real site in both directions: the hub
+# had a .release-preview-card block from gusdigitalsolutions#129 that this copy
+# never received, and this copy had the design-token layer from
+# herphase-pages#21 that the hub never received. There is no sync script. The
+# drift surfaced when a CSS-polish sweep merged here and a live probe showed the
+# published stylesheet unchanged. The dead copy is gone; git history has it.
+#
+# To change the HerPhase site:
+#   lightcloud00/gusdigitalsolutions -> public/herphase/
+#   bun run verify && bun run cf:deploy -- --apply   (merging does not publish)
+
 /                         https://gusdigitalsolutions.com/herphase/                         301
 /privacy                  https://gusdigitalsolutions.com/herphase/privacy/                 301
 /privacy/                 https://gusdigitalsolutions.com/herphase/privacy/                 301
